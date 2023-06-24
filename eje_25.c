@@ -5,8 +5,8 @@ decimal que le corresponde en la tabla ASCII.
 int main(){
     char x;
     printf("ingrese un caracter para buscarla en la tabla ASCII:\n");
-    //scanf("%c",&x); son dos maneras de hacerlo
-    x=getchar();
+    scanf("%c",&x); //son dos maneras de hacerlo
+    //x=getchar();
     system("cls");
     printf("el numero decimal de la tabla ASCII del caracter  %c  es %d \n\n ",x,x);
 

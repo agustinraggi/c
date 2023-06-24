@@ -19,6 +19,6 @@ int main(){
     printf("el area del circulo es: %5.2f \n",area);
 
 
-    //system("pause");
+    system("pause");
     return 1;
 }
