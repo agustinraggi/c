@@ -6,7 +6,7 @@ SU PROMEDIO ES : ............................................*/
 #include<stdio.h>
 
 int main(){
-    int vector[10],  i, maximo, suma=0;
+    int vector[10],  i, maximo = 0, suma = 0;
     float promedio;
     
     for (i = 0; i < 10; i++)
@@ -20,14 +20,14 @@ int main(){
     for(i=1; i<10; i++)
     {
         if(vector[i]> maximo)
-        maximo=vector[i];
+        maximo = vector[i];
     }
 
 
     //calcular suma
     for (i = 0; i <= 10; i++)
     {
-        suma= suma + vector[i];
+        suma = suma + vector[i];
         promedio = suma / (float) 10;
     }
 
